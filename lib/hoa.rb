@@ -6,8 +6,6 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  puts "Before add: #{BASE_HOA[show]}" 
   BASE_HOA[show] << name
-  puts "After add: #{BASE_HOA[show]}" 
-  # Should return the array of the 'show' argument
+  BASE_HOA
 end
